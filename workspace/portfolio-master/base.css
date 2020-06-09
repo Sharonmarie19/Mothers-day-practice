@@ -1,6 +1,13 @@
 /* Base Styles */
 
+h1{
+  font-size: 180%;
 
+}
+
+hr{
+  background-color: aquamarine;
+}
 body{
   background-color: black;
   color: rgb(135, 141, 141);
@@ -10,6 +17,9 @@ body{
 }
 .nav_bar{
   border-style: solid;
+  border-color: rgba(110, 108, 104, 0.226);
+  border-width: 1px;
+  border-radius: 10px;
   display: flex; 
   list-style: none;
   justify-content: space-evenly
@@ -18,14 +28,35 @@ body{
 
 .hero_box{
   border-style: solid;
+  border-color: rgba(110, 108, 104, 0.226);
+  border-radius: 10px;
+  width: 50%;
+  padding: 15px;
 }
 
 /* Layout Styles */
 
 .hero{
-  width: 10%;
+  width: 20%;
 }
 
 
 
 /* Block */
+
+.title{
+  font-size:160px;
+  color:  rgba(56, 55, 53, 0.267);
+  text-align: center;
+}
+
+.about_container{
+  border-style: solid;
+  border-color: rgba(110, 108, 104, 0.226);
+  border-radius: 10px;
+  width: 40%;
+  padding: 15px;
+  position: relative;
+  bottom: 190px;
+  left:700px
+}
