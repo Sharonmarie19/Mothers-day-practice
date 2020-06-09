@@ -1,0 +1,31 @@
+/* Base Styles */
+
+
+body{
+  background-color: black;
+  color: rgb(135, 141, 141);
+}
+.nav{
+  padding: 5px;
+}
+.nav_bar{
+  border-style: solid;
+  display: flex; 
+  list-style: none;
+  justify-content: space-evenly
+
+}
+
+.hero_box{
+  border-style: solid;
+}
+
+/* Layout Styles */
+
+.hero{
+  width: 10%;
+}
+
+
+
+/* Block */
